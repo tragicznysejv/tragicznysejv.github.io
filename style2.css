@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -32,8 +31,17 @@ h1, h2, h3 {
 
 h2 {
     font-size: 32px;
+    margin-bottom: 40px;
 }
-
+h2::after{
+    content:'';
+    display:block;
+    width:60px;
+    height:4px;
+    background-color: #e977c7;
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
+}
 h3 {
     font-size: 22px;
     color: #e977c7;
@@ -131,7 +139,10 @@ button:hover, .hero button:hover {
     gap: 30px;
     margin-top: 30px;
 }
-
+.services, .portfolio {
+    background-color: #faeff5;
+    width: 100%;
+}
 .service, .blog article, .portfolio .project {
     border: 1px solid #f0f0f0;
     padding: 20px;
@@ -192,7 +203,71 @@ form button {
     margin-top: 10px;
     width: 100%;
 }
+.icon-btn{
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.facebook{
+    color: #ffffff;
+}
+
+.facebook:hover{
+    background: #3B5998;
+    color: #FFFFFF;
+}
+.instagram {
+    color: #ffffff;
+}
+
+.instagram:hover{
+    background: #5C3D2E;
+    color: #FFFFFF;
+}
+
+.contact-info ul{
+    list-style-type: none;
+    padding-left:0;
+    margin: 0;
+}
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.info-map-wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.contact-info, .map-container {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+    text-align: left;
+}
+
+.map-container iframe {
+    width: 100%;
+    border-radius: 8px;
+}
 footer {
     background: #e977c7;
     color: #000000;
@@ -241,5 +316,12 @@ footer {
 
     h2 {
         font-size: 28px;
+    }
+    .info-map-wrapper {
+        flex-direction: column;
+    }
+    
+    .contact-info, .map-container {
+        width: 100%;
     }
 }
