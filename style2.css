@@ -48,7 +48,7 @@ h3 {
 }
 
 header {
-    background: #e977c7;
+    background: #c25e9e;
     color: #000000;
     padding: 20px 0;
     display: flex;
@@ -332,5 +332,6 @@ footer {
     display: block;
     margin: 0 auto 15px auto;
 }
+
 
 
