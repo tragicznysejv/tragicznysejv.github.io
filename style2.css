@@ -87,7 +87,7 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('https://images.pexels.com/photos/1005406/pexels-photo-1005406.jpeg');
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('główne-tło.webp');
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
@@ -173,7 +173,7 @@ img {
 }
 
 .about img {
-    max-width: 500px; 
+    max-width: 300px; 
     margin: 20px auto;
 }
 form {
@@ -325,3 +325,4 @@ footer {
         width: 100%;
     }
 }
+
