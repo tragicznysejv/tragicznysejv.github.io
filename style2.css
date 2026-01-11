@@ -38,13 +38,13 @@ h2::after{
     display:block;
     width:60px;
     height:4px;
-    background-color: #e977c7;
+    background-color: #c25e9e;
     margin: 10px auto 0 auto;
     border-radius: 2px;
 }
 h3 {
     font-size: 22px;
-    color: #e977c7;
+    color: #c25e9e;
 }
 
 header {
@@ -100,7 +100,7 @@ nav ul li a:hover {
 }
 
 button, .hero button {
-    background-color: #e977c7;
+    background-color: #c25e9e;
     color: #fff;
     border: none;
     padding: 12px 25px;
@@ -332,4 +332,5 @@ footer {
     display: block;
     margin: 0 auto 15px auto;
 }
+
 
