@@ -1,6 +1,4 @@
-User-agent:*
-Disallow:/admin/
-Disallow:/login/
-Disallow:private/
-Allow:/publiczny-folder/
+User-agent: *
+Allow: /
+
 Sitemap: https://tragicznysejv.github.io/sitemap.xml
