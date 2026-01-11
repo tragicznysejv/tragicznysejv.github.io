@@ -38,7 +38,7 @@ h2::after{
     display:block;
     width:60px;
     height:4px;
-    background-color: #c25e9e;
+    background-color: #e977c7;
     margin: 10px auto 0 auto;
     border-radius: 2px;
 }
@@ -48,7 +48,7 @@ h3 {
 }
 
 header {
-    background: #c25e9e;
+    background: #e977c7;
     color: #000000;
     padding: 20px 0;
     display: flex;
@@ -100,7 +100,7 @@ nav ul li a:hover {
 }
 
 button, .hero button {
-    background-color: #c25e9e;
+    background-color: #e977c7;
     color: #fff;
     border: none;
     padding: 12px 25px;
